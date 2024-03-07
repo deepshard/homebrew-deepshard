@@ -5,11 +5,11 @@
 class TruffleCli < Formula
   desc ""
   homepage "https://github.com/deepshard/truffle-cli"
-  version "2.0"
+  version "2.1"
   depends_on :macos
 
-  url "https://github.com/deepshard/truffle-cli/releases/download/v2.0/truffle-cli_Darwin_all.tar.gz"
-  sha256 "e00f237456d885829290412d0b2685a1abca52eab7b800ac16a5c23bb12fc276"
+  url "https://github.com/deepshard/truffle-cli/releases/download/v2.1/truffle-cli_Darwin_all.tar.gz"
+  sha256 "4939c9fefd82535b1c0b53a3b906c21499ab2c5b3a9b537ccc69bd21f96c06eb"
 
   def install
     bin.install "truffle-cli"
